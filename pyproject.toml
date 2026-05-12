@@ -30,6 +30,9 @@ dependencies = [
     "pyyaml",
 ]
 
+[project.optional-dependencies]
+dev = ["pytest"]
+
 [project.urls]
 Homepage    = "https://github.com/ctrl07/hide-overlays"   # ← EDIT: your repo URL
 Repository  = "https://github.com/ctrl07/hide-overlays"   # ← EDIT: your repo URL
